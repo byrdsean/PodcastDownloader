@@ -76,6 +76,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SQL\StoredProcedures\usp_AddNewSubscription.sql" />
+    <Content Include="SQL\StoredProcedures\usp_GetAllPodcasts.sql" />
+    <Content Include="SQL\StoredProcedures\usp_GetPodcastDownloadData.sql" />
+    <Content Include="SQL\StoredProcedures\usp_GetSubscriptionByAbbrev.sql" />
+    <Content Include="SQL\StoredProcedures\usp_IncrementEpisodeDownloadCount.sql" />
+    <Content Include="SQL\StoredProcedures\usp_InsertUpdatePodcastEpisode.sql" />
     <Content Include="SQL\Tables\Episodes.sql" />
     <Content Include="SQL\Tables\Podcasts.sql" />
   </ItemGroup>
