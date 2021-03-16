@@ -75,5 +75,9 @@
       <Name>UIAccess</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\Tables\Episodes.sql" />
+    <Content Include="SQL\Tables\Podcasts.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
